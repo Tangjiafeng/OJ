@@ -4,11 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Arrays;
 
-import org.junit.Test;
 
 import com.ecnu.leetcode.dynamicprogram.PerfectSquaresDP;
 import com.ecnu.leetcode.search.breadfirst.PerfectSquaresBFS;
 import com.ecnu.leetcode.search.breadfirst.WordLadder;
+import org.junit.jupiter.api.Test;
 
 
 public class FSTest {

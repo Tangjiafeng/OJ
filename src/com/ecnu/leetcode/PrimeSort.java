@@ -11,7 +11,8 @@ public class PrimeSort {
         		countPrime ++;
         	}
 		}
-        int res = result(countPrime).multiply(result(n - countPrime)).mod(new BigInteger((int) Math.pow(10, 9) + 7 + "")).intValue();
+        int res = result(countPrime).multiply(result(n - countPrime))
+				.mod(new BigInteger((int) Math.pow(10, 9) + 7 + "")).intValue();
         return res;  
     }
 	

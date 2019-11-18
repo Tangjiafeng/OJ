@@ -2,7 +2,6 @@ package com.ecnu.leetcode.string;
 
 import java.util.*;
 
-import org.junit.Test;
 
 /**
  * case:"123456789", row=3:
