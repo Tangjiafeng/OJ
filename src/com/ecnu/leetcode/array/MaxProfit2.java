@@ -1,6 +1,9 @@
 package com.ecnu.leetcode.array;
 
-public class MaxProfit {
+/**
+ * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii
+ */
+public class MaxProfit2 {
     // Algor 1: ·å¹È·¨
     public int maxProfit(int[] prices) {
         int ans = 0;
