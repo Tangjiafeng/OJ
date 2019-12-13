@@ -24,20 +24,20 @@ class T {
 	// null，0（preparation）
 	// null，1（resolution，new对象的时候执行构造方法）
 	// T@十六进制哈希码，8（initialzing，构造方法完成，加载count静态成员变量，赋初始值）
-//	public static T t = new T();
-//	public static int count = 8;
+	public static T t = new T();
+	public static int count = 8;
 	
 	// count，t的值变化过程：
 	// 0，null（preparation）
 	// 8，null（resolution）
 	// 9，T@十六进制哈希码（initialzing，加载t静态成员变量，new对象调用了构造方法）
-	public static int count = 8;
-	public static T t = new T();
+//	public static int count = 8;
+//	public static T t = new T();
 	Object o = new Object();
 	
 	private T() {
 		count ++;
-		System.out.println("--" + count);
+		System.out.println("T构造方法中：" + count);
 		
 	}	
 }

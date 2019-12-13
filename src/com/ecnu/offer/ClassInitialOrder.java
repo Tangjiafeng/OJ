@@ -1,5 +1,8 @@
 package com.ecnu.offer;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * static关键字的代码块应该是最先执行，其次是非static关键字的代码块以及类的属性(Fields),最后是构造方法。
  * @author A
@@ -7,6 +10,7 @@ package com.ecnu.offer;
  */
 public class ClassInitialOrder {
 	public static void main(String[] args) {
+        Map<Integer, Integer> map = new HashMap<>();
         BaseCodeBlock bcb = new CodeBlockForJava();
         bcb.msg();
     }

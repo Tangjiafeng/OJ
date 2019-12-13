@@ -9,15 +9,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import com.ecnu.leetcode.string.IntegerToRoman;
-import com.ecnu.leetcode.string.LongestCommonPrefix;
-import com.ecnu.leetcode.string.ReverseUtil;
-import com.ecnu.leetcode.string.RegExp;
-import com.ecnu.leetcode.string.AtoI;
-import com.ecnu.leetcode.string.CountAndSay;
-import com.ecnu.leetcode.string.GenerateParentheses;
-import com.ecnu.leetcode.string.RomanToInteger;
-import com.ecnu.leetcode.string.Zigzag;
+import com.ecnu.leetcode.string.*;
 import org.junit.jupiter.api.Test;
 
 public class StringTest {
@@ -76,15 +68,8 @@ public class StringTest {
 	}
 	
 	@Test
-	public void reverseUtilTest() {
-		/*
-		char[] s = {'h', 'e', 'a', 'b'};
-		ReverseUtil.reverseString(s);
-		for(char c : s) {
-			System.out.print(c + " ");
-		}
-		*/
-		System.out.println(ReverseUtil.reverseNumber(-1563847412));
+	public void reverseNumberTest() {
+		System.out.println(ReverseInteger.reverseNumber(-1563847412));
 	}
 	
 	@Test
@@ -138,8 +123,12 @@ public class StringTest {
 	}
 	
 	@Test
-	public void isPalindrome() {
-		String s = "A man, a plan, a canal: Panama";
+	public void PalindromeTest() {
+		String s = "deeee";
+		System.out.println(new Palindrome().validPalindromeDel(s));
+//		assertEquals(Boolean.TRUE, new Palindrome().validPalindromeDel(s));
+
+		/*String s = "A man, a plan, a canal: Panama";
         if(s.length() == 0) {
         	System.out.println(Boolean.TRUE);
             return;
@@ -156,7 +145,7 @@ public class StringTest {
                 j --;
             }
         }
-        System.out.println(Boolean.TRUE);
+        System.out.println(Boolean.TRUE);*/
     }
 	
 	@Test
