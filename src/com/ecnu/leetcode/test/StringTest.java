@@ -164,6 +164,13 @@ public class StringTest {
 	
 	@Test
 	public void countAndSayTest() {
-		System.out.println(CountAndSay.countAndSay(5));
+		System.out.println(CountAndSay.countAndSay(6));
+	}
+
+	@Test
+	public void searchNameSystemTest() {
+		String[] strs = {"mobile","mouse","moneypot","monitor","mousepad"};
+		String searchWord = "mouse";
+		new SearchNameSystem().suggestedProducts(strs,searchWord);
 	}
 }

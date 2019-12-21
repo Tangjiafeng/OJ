@@ -40,9 +40,23 @@ public class CountAndSay {
 		}
 		return ans.get(n - 1);
     }
-	/*
-	 * Regular expression: counts and combines the same number.
-	 * Try with Java.
-	 */
-	
+    // Cpp的一种更简洁的代码，但是字符串类型在程序中的变化影响在Java中效率。
+	public static String countAndSay2(int n) {
+		String str,res;
+		res="1";
+		for(int i=1;i<n;i++){
+			str=res;
+			res="";
+			for(int j=0;j<str.length();){
+				int c=0,k=j;
+				while(k<str.length()&&str.charAt(k)==str.charAt(j)){
+					k++;
+					c++;
+				}
+				res+=c+str.charAt(j);
+				j=k;
+			}
+		}
+		return res;
+	}
 }

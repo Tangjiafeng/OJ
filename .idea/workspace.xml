@@ -2,66 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcde9b5f-fd57-4fb8-9195-ea237c8c8ee5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/daily/Calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/ExercisePlan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/PalindromicCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/PerfectSquares.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/PrimeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/Sudoku$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/Sudoku$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/Sudoku$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/Sudoku$Dot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/Sudoku.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/array/MajorityElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/array/MaxSubArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/array/SumClosest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/backtraceing/GenerateParentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/backtraceing/LetterCombinations$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/backtraceing/LetterCombinations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/dynamicprogram/NumDecoding.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/dynamicprogram/PairChain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/dynamicprogram/PerfectSquaresDP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/greedystrategy/AssignCookeis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/math/MaxProfit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/math/ReverseNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/search/breadfirst/PerfectSquaresBFS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/search/breadfirst/WordLadder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/AtoI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/CountAndSay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/GenerateParentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/IntegerToRoman$ch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/IntegerToRoman.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/LetterCombinations$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/LetterCombinations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/LongestCommonPrefix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/RegExp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/ReverseUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/RomanToInteger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/string/Zigzag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/test/DPTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/test/FSTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/test/GSTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/test/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/test/StringTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/util/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/leetcode/util/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/offer/Another.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/offer/BaseCodeBlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/offer/ClassInitialOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/offer/ClassLoadingProcedure.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/offer/CodeBlockForJava.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/offer/CollectionUtilTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/offer/Other.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OJ/com/ecnu/offer/T.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OJ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ecnu/leetcode/PalindromicCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/PalindromicCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ecnu/leetcode/PrimeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/PrimeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ecnu/leetcode/string/Zigzag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/string/Zigzag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ecnu/leetcode/test/FSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/test/FSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ecnu/leetcode/test/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/test/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/string/SearchNameSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ecnu/leetcode/string/CountAndSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/string/CountAndSay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ecnu/leetcode/string/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/string/LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ecnu/leetcode/test/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ecnu/leetcode/test/StringTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,24 +19,33 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/test/Game.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/test/StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="382">
+              <caret line="175" column="1" lean-forward="true" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/LongestCommonPrefix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/PalindromicCheck.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/SearchNameSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+            <state relative-caret-position="171">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,7 +53,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/Java/jdk1.8.0_151/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>say</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,12 +83,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/Sudoku.java" />
-        <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/test/StringTest.java" />
         <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/test/FSTest.java" />
         <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/string/Zigzag.java" />
         <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/PrimeSort.java" />
         <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/test/Game.java" />
         <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/PalindromicCheck.java" />
+        <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/string/CountAndSay.java" />
+        <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/string/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/test/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ecnu/leetcode/string/SearchNameSystem.java" />
       </list>
     </option>
   </component>
@@ -161,14 +138,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ecnu" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ecnu" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StringTest.searchNameSystemTest">
     <configuration name="Game.palindromicCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OJ" />
       <extension name="coverage">
@@ -225,8 +210,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringTest.countAndSayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecnu.leetcode.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecnu.leetcode.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ecnu.leetcode.test.StringTest" />
+      <option name="METHOD_NAME" value="countAndSayTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTest.searchNameSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecnu.leetcode.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ecnu.leetcode.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ecnu.leetcode.test.StringTest" />
+      <option name="METHOD_NAME" value="searchNameSystemTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringTest.searchNameSystemTest" />
+        <item itemvalue="JUnit.StringTest.countAndSayTest" />
         <item itemvalue="JUnit.Game.palindromicCheckTest" />
       </list>
     </recent_temporary>
@@ -243,49 +262,50 @@
       <updated>1574040918296</updated>
       <workItem from="1574040919556" duration="950000" />
       <workItem from="1574041915989" duration="12426000" />
+      <workItem from="1576308205556" duration="11429000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Game_palindromicCheckTest - 2019.11.18 at 15h 39m 08s.xml">
-      <configuration name="Game.palindromicCheckTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 16h 42m 26s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_palindromicCheckTest - 2019.11.18 at 15h 39m 59s.xml">
-      <configuration name="Game.palindromicCheckTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 16h 43m 31s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_tempTest - 2019.11.18 at 15h 43m 56s.xml">
-      <configuration name="Game.tempTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 16h 44m 51s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_tempTest - 2019.11.18 at 15h 44m 07s.xml">
-      <configuration name="Game.tempTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 16h 47m 19s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_tempTest - 2019.11.18 at 15h 46m 15s.xml">
-      <configuration name="Game.tempTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 16h 49m 49s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_palindromicCheckTest - 2019.11.18 at 15h 53m 16s.xml">
-      <configuration name="Game.palindromicCheckTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 16h 51m 59s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_palindromicCheckTest - 2019.11.18 at 15h 56m 15s.xml">
-      <configuration name="Game.palindromicCheckTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 16h 53m 08s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_palindromicCheckTest - 2019.11.18 at 15h 57m 26s.xml">
-      <configuration name="Game.palindromicCheckTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 16h 54m 53s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_palindromicCheckTest - 2019.11.18 at 16h 00m 04s.xml">
-      <configuration name="Game.palindromicCheckTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 17h 04m 00s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Game_palindromicCheckTest - 2019.11.18 at 20h 48m 49s.xml">
-      <configuration name="Game.palindromicCheckTest" configurationId="JUnit" />
+    <history-entry file="StringTest_searchNameSystemTest - 2019.12.14 at 17h 10m 21s.xml">
+      <configuration name="StringTest.searchNameSystemTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13376000" />
+    <option name="totallyTimeSpent" value="24805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,7 +315,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32692307" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997253" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -315,6 +335,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32692307" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39932886" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32692307" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -339,6 +390,36 @@
           <line>80</line>
           <properties />
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/CountAndSay.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/SearchNameSystem.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/SearchNameSystem.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/SearchNameSystem.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/SearchNameSystem.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -396,16 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/test/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-601">
-          <caret line="120" column="8" lean-forward="true" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/test/GSTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -413,9 +484,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/PalindromicCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="80" column="31" lean-forward="true" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/test/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="304">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -423,10 +504,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/PalindromicCheck.java">
+    <entry file="jar://E:/Java/jdk1.8.0_151/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        <state relative-caret-position="475">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/CountAndSay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_151/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.8.0_151/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="707" column="12" selection-start-line="707" selection-start-column="12" selection-end-line="707" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.6.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/test/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="175" column="1" lean-forward="true" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ecnu/leetcode/string/SearchNameSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

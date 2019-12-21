@@ -23,9 +23,16 @@ public class LongestCommonPrefix {
 	    return pre;
 	}
 	/*
-	 * Algor of mine: 
+	 * Algor of mine: 找到字符串数组中最短的字符串，确定其长度，然后共同比较在该长度
+	 * 范围内所有字符串前缀匹配情况。
+	 *
+	 * TC：O(n^2)
+	 * MC：
+	 * 执行用时 : 1 ms, 在所有 java 提交中击败了89.15%的用户
+     * 内存消耗 : 37.8 MB, 在所有 java 提交中击败了69.99%的用户
 	 */
 	public static String longestCommonPrefix(String[] strs) {
+		if (strs.length == 0) return "";
 		StringBuilder sb = new StringBuilder("");
         int min = strs[0].length();
         for(int i = 1; i < strs.length; i ++) {
