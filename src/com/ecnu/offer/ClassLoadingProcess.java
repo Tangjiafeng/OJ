@@ -12,7 +12,7 @@ package com.ecnu.offer;
  * 3，initialzing 静态变量赋为初始值
  * 4，GC
  */
-public class ClassLoadingProcedure {
+public class ClassLoadingProcess {
 	public static void main(String[] args) {
 		System.out.println(T.count);
 		System.out.println(T.t);

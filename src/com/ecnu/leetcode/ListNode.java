@@ -3,21 +3,37 @@ package com.ecnu.leetcode;
 public class ListNode {
     int val;
     ListNode next;
+    public ListNode() { }
     public ListNode(int x) { val = x; }
     public void print() {
         ListNode p = this;
         while (p != null) {
-            System.out.println(p.val);
+            System.out.print(p.val + "->");
             p = p.next;
         }
+        System.out.println("null");
     }
-    public ListNode reverseList(ListNode head) {
-        
-        return null;
+    // https://leetcode-cn.com/problems/reverse-linked-list/
+    public static ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode newHead = head.next;
+        ListNode backNode = head.next.next;
+        newHead.next = head;
+        newHead.next.next = null;
+        while (backNode != null) {
+            ListNode tempNode = backNode;
+            backNode = backNode.next;
+            tempNode.next = newHead;
+            newHead = tempNode;
+        }
+
+        return newHead;
     }
     // https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
     // 注意处理边界条件。
-    public ListNode removeNthFromEnd(ListNode head, int n) {
+    public static ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode p = dummy;
@@ -35,19 +51,19 @@ public class ListNode {
     }
 
     public static void main(String[] args) {
-//        ListNode listNode = new ListNode(1);
-//        ListNode listNode2 = new ListNode(2);
-//        ListNode listNode3 = new ListNode(3);
-//        ListNode listNode4 = new ListNode(4);
-//        ListNode listNode5 = new ListNode(5);
-//        listNode4.next = listNode5;
-//        listNode3.next = listNode4;
-//        listNode2.next = listNode3;
-//        listNode.next = listNode2;
-//
-//        listNode.print();
-//        listNode.removeNthFromEnd(listNode, 2);
-//        listNode.print();
-    }
+        ListNode listNode = new ListNode(1);
+        ListNode listNode2 = new ListNode(2);
+        ListNode listNode3 = new ListNode(3);
+        ListNode listNode4 = new ListNode(4);
+        ListNode listNode5 = new ListNode(5);
+        listNode4.next = listNode5;
+        listNode3.next = listNode4;
+        listNode2.next = listNode3;
+        listNode.next = listNode2;
 
+        listNode.print();
+        ListNode.reverseList(listNode);
+//        ListNode.removeNthFromEnd(listNode, 2);
+        listNode.print();
+    }
 }
