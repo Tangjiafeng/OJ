@@ -3,7 +3,6 @@ package com.ecnu.leetcode;
 public class ListNode {
     int val;
     ListNode next;
-    public ListNode() { }
     public ListNode(int x) { val = x; }
     public void print() {
         ListNode p = this;
@@ -14,22 +13,23 @@ public class ListNode {
         System.out.println("null");
     }
     // https://leetcode-cn.com/problems/reverse-linked-list/
+    // 保存后继元素，反转前驱元素
     public static ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode newHead = head.next;
         ListNode backNode = head.next.next;
-        newHead.next = head;
-        newHead.next.next = null;
+        ListNode originHead = head;
+        head = head.next;
+        head.next = originHead;
+        head.next.next = null;
         while (backNode != null) {
             ListNode tempNode = backNode;
             backNode = backNode.next;
-            tempNode.next = newHead;
-            newHead = tempNode;
+            tempNode.next = head;
+            head = tempNode;
         }
-
-        return newHead;
+        return head;
     }
     // https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
     // 注意处理边界条件。
@@ -62,8 +62,13 @@ public class ListNode {
         listNode.next = listNode2;
 
         listNode.print();
-        ListNode.reverseList(listNode);
-//        ListNode.removeNthFromEnd(listNode, 2);
+        ListNode.removeNthFromEnd(listNode, 2);
         listNode.print();
+
+        listNode.print();
+        // 第一个节点作为参数传入，效果是五个节点的next指向都被反转了。
+        // 函数只能修改next指向，listNode本身还是指向值为1的元素。
+        ListNode.reverseList(listNode).print();
+        listNode.print();// 第一个节点变成了倒数一个节点，所以打印出来：1->null
     }
 }
