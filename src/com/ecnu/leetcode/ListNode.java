@@ -3,8 +3,6 @@ package com.ecnu.leetcode;
 // MC:
 // 执行用时 : ms, 在所有 java 提交中击败了%的用户
 // 内存消耗 : MB, 在所有 java 提交中击败了%的用户
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 import java.util.Stack;
 
 public class ListNode {
