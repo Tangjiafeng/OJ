@@ -1,4 +1,11 @@
 package com.ecnu.leetcode;
+// TC:
+// MC:
+// 执行用时 : ms, 在所有 java 提交中击败了%的用户
+// 内存消耗 : MB, 在所有 java 提交中击败了%的用户
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
+import java.util.Stack;
 
 public class ListNode {
     int val;
@@ -11,6 +18,89 @@ public class ListNode {
             p = p.next;
         }
         System.out.println("null");
+    }
+    // https://leetcode-cn.com/problems/linked-list-cycle/
+    // Algor of mine: 快慢指针法，注意快指针前进两步的时候判断是否为null。
+    // 执行用时 : 37 ms, 在所有 java 提交中击败了 100% 的用户
+    // 内存消耗 : 37.3 MB, 在所有 java 提交中击败了 96.95% 的用户
+    public static boolean hasCycle(ListNode head) {
+        if (head == null || head.next == null) return Boolean.FALSE;
+        ListNode fast = head.next.next;
+        ListNode slow = head;
+        while (fast != null && slow != null) {
+            if (fast == slow) {
+                return Boolean.TRUE;
+            }
+            if (fast.next != null) {
+                fast = fast.next.next;
+                slow = slow.next;
+            } else {
+                break;
+            }
+        }
+        return Boolean.FALSE;
+    }
+    // https://leetcode-cn.com/problems/palindrome-linked-list/
+    // Algor of mine: 利用栈的特性存储一半元素作比较。
+    public static boolean isPalindrome(ListNode head) {
+        Stack<Integer> stack = new Stack<>();
+        // Length
+        int len = 0;
+        ListNode p = new ListNode(0);
+        p.next = head;
+        p = p.next;
+        while (p != null) {
+            len ++;
+            p = p.next;
+        }
+        // The left half is put on the stack and compared with the right half.
+        for (int i = 0; i < len / 2; i ++) {
+            stack.push(head.val);
+            head = head.next;
+        }
+        if (len % 2 != 0) {
+            head = head.next;
+        }
+        while (! stack.isEmpty()) {
+            if (stack.pop() == head.val) {
+                head = head.next;
+                continue;
+            } else {
+                return Boolean.FALSE;
+            }
+        }
+
+        return Boolean.TRUE;
+    }
+    // Algor 1: 一种快慢指针的做法，利用快慢指针找到链表中心位置，并在遍历中翻转左半部链表，进行元素比较。
+    // TC: O(1)
+    public static boolean isPalindrome1(ListNode head) {
+        if (head == null || head.next == null) {
+            return Boolean.TRUE;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        ListNode pre = head;
+        ListNode prepre = head;
+        while (fast != null && fast.next != null) {
+            pre = slow;
+            fast = fast.next.next;
+            slow = slow.next;
+            pre.next = prepre;
+            prepre = pre;
+        }
+        if (fast != null) {
+            slow = slow.next;
+        }
+
+        while (pre != null && slow != null) {
+            if (pre.val != slow.val) {
+                return Boolean.FALSE;
+            }
+            pre = pre.next;
+            slow = slow.next;
+        }
+        return Boolean.TRUE;
     }
     // https://leetcode-cn.com/problems/reverse-linked-list/
     // 保存后继元素，反转前驱元素
@@ -51,6 +141,7 @@ public class ListNode {
     }
 
     public static void main(String[] args) {
+        /*
         ListNode listNode = new ListNode(1);
         ListNode listNode2 = new ListNode(2);
         ListNode listNode3 = new ListNode(3);
@@ -66,9 +157,19 @@ public class ListNode {
         listNode.print();
 
         listNode.print();
-        // 第一个节点作为参数传入，效果是五个节点的next指向都被反转了。
-        // 函数只能修改next指向，listNode本身还是指向值为1的元素。
         ListNode.reverseList(listNode).print();
-        listNode.print();// 第一个节点变成了倒数一个节点，所以打印出来：1->null
+        listNode.print();
+        ListNode listNode = new ListNode(1);
+        ListNode listNode2 = new ListNode(2);
+        ListNode listNode3 = new ListNode(3);
+        ListNode listNode4 = new ListNode(2);
+        ListNode listNode5 = new ListNode(1);
+        listNode4.next = listNode5;
+        listNode3.next = listNode4;
+        listNode2.next = listNode3;
+        listNode.next = listNode2;
+        listNode.print();
+        System.out.println(isPalindrome(listNode));
+        */
     }
 }
