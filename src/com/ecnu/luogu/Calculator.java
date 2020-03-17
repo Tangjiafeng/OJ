@@ -1,11 +1,11 @@
-package com.ecnu.daily;
+package com.ecnu.luogu;
 
 /**
  * https://www.luogu.org/problem/P1022
  */
 public class Calculator {
     public static void main(String[] args) {
-        String str = "-a+1a-3=a-3";// 提交代码要Scanner读入
+        String str = "-a+3a-15=a-3";// 提交代码要Scanner读入
         String[] strings = str.split("=");
         float[] left = calcu(strings[0]);
         float[] right = calcu(strings[1]);
