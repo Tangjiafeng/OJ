@@ -15,8 +15,10 @@ public class ArrayTest {
     public void MaxProfitTest() {
         int[] arr = {7,1,5,3,6,4};
         int[] arr2 = {3, 3};
-        assertEquals(new MaxProfit().maxProfit(arr), 5);
-        assertEquals(new MaxProfit().maxProfit(arr2), 0);
+        int[] arr3 = {2,4,1};
+        assertEquals(new MaxProfit().maxProfitV2(arr), 5);
+        assertEquals(new MaxProfit().maxProfitV2(arr2), 0);
+        assertEquals(new MaxProfit().maxProfitV2(arr3), 2);
     }
     @Test
     public void MaxProfit2Test() {

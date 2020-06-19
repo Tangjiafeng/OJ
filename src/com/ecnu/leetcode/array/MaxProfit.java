@@ -5,25 +5,48 @@ package com.ecnu.leetcode.array;
  */
 public class MaxProfit {
     // Algor of mine:
-    // status: 解答错误 [2,1,2,1,0,1,2]，找不到最小的谷。
-    public int maxProfit(int[] prices) {
+    // status: 解答错误，不能一直保证入手股票为卖出之前的最低价。
+//    public int maxProfit(int[] prices) {
+//        if (prices.length == 0) return 0;
+//        int i = 0;
+//        while (i < prices.length - 1 && prices[i] >= prices[i + 1])
+//            i ++;
+//        int buy = prices[i];
+//        int sell = 0;
+//        if (i == prices.length - 1) return 0;
+//        while (i < prices.length) {
+//            if (prices[i] > buy) {
+//                sell = Math.max(sell, prices[i]);
+//            }
+//            i ++;
+//        }
+//        return sell - buy;
+//    }
+    // 修正
+    public int maxProfitV2(int[] prices) {
         if (prices.length == 0) return 0;
         int i = 0;
         while (i < prices.length - 1 && prices[i] >= prices[i + 1])
             i ++;
         int buy = prices[i];
         int sell = 0;
+        int ans = 0;
         if (i == prices.length - 1) return 0;
         while (i < prices.length) {
             if (prices[i] > buy) {
                 sell = Math.max(sell, prices[i]);
             }
+            if (prices[i] < buy) {
+                buy = prices[i];
+                sell = prices[i];
+            }
+            ans = Math.max(sell - buy, ans);
             i ++;
         }
-        return sell - buy;
+        return ans;
     }
 
-    // Algor 1: 我们需要找到最小的谷之后的最大的峰。
+    // Algor 1: 我们需要找到当前的峰与之前最小的谷的最大值。
     public int maxProfit2(int[] prices) {
         int minPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
