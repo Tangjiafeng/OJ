@@ -57,7 +57,7 @@ public class CollectionUtilTest {
 		System.out.println(ch);
 	}
 	public static void main(String[] args) {
-//		CollectionUtilTest.testPriorityQueue();
+		CollectionUtilTest.testPriorityQueue();
 //		CollectionUtilTest.testQueue();
 //		CollectionUtilTest.testLinkedList();
 	}
